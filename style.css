@@ -1,0 +1,91 @@
+body {
+	background: url(background2.jpg) no-repeat center center fixed;
+	background-size: cover;
+	
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.header_main {
+	margin-top: 30px;
+	font-family: 'Concert One', cursive;
+	font-weight: bold;
+	font-size: 50px;
+
+}
+
+.button {
+	background-color: rgba(14, 192, 192, 0.5);
+	position: relative;
+	top: 150px;
+	height: 60px;
+	width: 120px;
+	border-radius: 20px;
+	line-height: 60px;
+	color: black;
+	transition: all 0.7s;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Concert One', cursive;
+
+
+
+}
+
+.button:hover {
+	transform: scale(1.5);
+}
+
+@media all and (max-width: 600px) and (max-height: 400px), 
+		all and (max-width: 500px),
+		all and (max-height: 500px), {
+		
+ 
+	.header_main {
+		width: 50%;
+	}
+
+	body {
+    	justify-content: center; 
+    	align-items: flex-end;
+  }
+	
+	.button {
+		position: inherit;
+		margin-right: 200px;
+	}
+
+}
+
+@media all and (max-width: 600px) and (max-height: 400px) {
+	.button {
+		position: inherit;
+		margin-right: 0px;
+	}
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
